@@ -1,0 +1,146 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Big Shoulders Display', sans-serif;
+    font-family: 'Lexend Deca', sans-serif;
+    box-sizing: border-box;
+}
+
+.sedans {
+    padding: 2rem 4rem 0rem 3rem;
+    background-color: hsl(31, 77%, 52%);
+    margin-top: 5rem;
+    margin-left: 5rem;
+    margin-right: 6rem;
+    border-radius: 1rem 1rem 0rem 0rem;
+    height: 400px;
+}
+
+.text1 {
+    color: white;
+}
+
+.text1 h1 {
+    padding-top: 1rem;
+    font-family: 'Big Shoulders Display', sans-serif;
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.text1 p {
+    padding-top: 2rem;
+    font-size: 15px;
+}
+
+.button button {
+    background-color: white;
+    border-radius: 2rem;
+    margin-top: 3rem;
+    margin-right: 6rem;
+    border: none;
+    padding: 10px;
+    width: 7rem;
+    color: hsl(31, 77%, 52%);
+}
+
+.button button:hover {
+    background-color: orangered;
+    color: white;
+    cursor: pointer;
+}
+.suvs{
+    padding: 2rem 4rem 0rem 3rem;
+    background-color:hsl(184, 100%, 22%);
+    margin-top: 0rem;
+    margin-left: 5rem;
+    margin-right: 6rem;
+    height: 400px;
+}
+.text2{
+    color: white;
+}
+.text2 h1{
+    padding-top: 1rem;
+    font-family: 'Big Shoulders Display', sans-serif;
+    font-weight: 700;
+    font-size: 45px;
+}
+.text2 p{
+    padding-top: 2rem;
+    font-size: 15px;
+}
+.button2 button{
+    background-color: white;
+    border-radius: 2rem;
+    margin-top: 3rem;
+    margin-right: 6rem;
+    border: none;
+    padding: 10px;
+    width: 7rem;
+    color:hsl(184, 100%, 22%);
+}
+.button2 button:hover{
+    background-color: hsl(179, 100%, 13%);
+    color: white;
+    cursor: pointer;
+}
+.LUXURY{
+    padding: 2rem 4rem 0rem 3rem;
+    border-radius: 0rem 0rem 1rem 1rem;
+    background-color:hsl(179, 100%, 13%);
+    margin-top: 0rem;
+    margin-left: 5rem;
+    margin-right: 6rem;
+    height: 400px;
+    margin-bottom:5rem ;
+}
+.text3{
+    color: white;
+}
+.text3 h1{
+    padding-top: 1rem;
+    font-family: 'Big Shoulders Display', sans-serif;
+    font-weight: 700;
+    font-size: 45px;
+}
+.text3 p{
+    padding-top: 2rem;
+    font-size: 15px;
+}
+.button3 button{
+    background-color: white;
+    border-radius: 2rem;
+    margin-top: 3rem;
+    margin-right: 6rem;
+    border: none;
+    padding: 10px;
+    width: 7rem;
+    color:hsl(179, 100%, 13%);
+}
+.button3 button:hover{
+    background-color: hsl(184, 100%, 22%);
+    color: white;
+    cursor: pointer;
+}
+@media (min-width:1022px) {
+    .all{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .sedans{
+        margin-left: 6rem;
+        margin-right: -2rem;
+        border-radius: 1rem 0rem 0rem 1rem;
+    }
+    .suvs{
+        margin-top: 5rem;
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+    .LUXURY{
+        margin-top: 5rem;
+        margin-left:-2rem ;
+        margin-right: 6rem;
+        border-radius: 0rem 1rem 1rem 0rem;
+    }
+}
